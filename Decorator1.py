@@ -32,3 +32,9 @@ intro()
 
 def make_payments():
     print("payment initiated")
+def dec_system(func):
+    def wrapper1():
+        print("Payment succesful")
+    return wrapper1
+make_payments=dec_system(make_payments)
+make_payments()

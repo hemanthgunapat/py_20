@@ -35,3 +35,4 @@ for i in range(1, len(l)):
         j-=1
     l[j+1]=k
 print(*l)
+
